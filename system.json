@@ -1,0 +1,114 @@
+{
+  "id": "clube-dos-taberneiros",
+  "title": "Clube dos Taberneiros",
+  "description": "Sistema de RPG Clube dos Taberneiros para Foundry VTT - Sistema 2d6 com foco em narrativa e simplicidade",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "Manus AI",
+      "discord": "manus",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/clube-dos-taberneiros.mjs"
+  ],
+  "styles": [
+    "styles/clube-dos-taberneiros.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "habilidades",
+      "label": "Habilidades",
+      "path": "packs/habilidades.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armas",
+      "label": "Armas",
+      "path": "packs/armas.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras",
+      "path": "packs/armaduras.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipamentos",
+      "label": "Equipamentos",
+      "path": "packs/equipamentos.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pocoes",
+      "label": "Poções",
+      "path": "packs/pocoes.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Clube dos Taberneiros",
+      "sorting": "m",
+      "packs": ["habilidades", "magias", "armas", "armaduras", "equipamentos", "pocoes"]
+    }
+  ],
+  "socket": false,
+  "initiative": "1d20 + @attributes.acao.value",
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "pv",
+  "secondaryTokenAttribute": "pm",
+  "url": "https://github.com/manus-ai/clube-dos-taberneiros-foundry",
+  "manifest": "https://github.com/manus-ai/clube-dos-taberneiros-foundry/releases/latest/download/system.json",
+  "download": "https://github.com/manus-ai/clube-dos-taberneiros-foundry/archive/main.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/manus-ai/clube-dos-taberneiros-foundry/issues",
+  "changelog": "https://github.com/manus-ai/clube-dos-taberneiros-foundry/releases"
+}
+
