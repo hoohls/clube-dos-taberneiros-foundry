@@ -78,8 +78,10 @@
   ],
   "socket": false,
   "initiative": "2d6 + @attributes.acao.value",
-  "gridDistance": 1.5,
-  "gridUnits": "m",
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
   "primaryTokenAttribute": "pv",
   "secondaryTokenAttribute": "pm"
 }
