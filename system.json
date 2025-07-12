@@ -15,19 +15,6 @@
       "discord": "hoohls"
     }
   ],
-  "url": "https://github.com/hoohls/clube-dos-taberneiros-foundry",
-  "manifest": "https://raw.githubusercontent.com/hoohls/clube-dos-taberneiros-foundry/main/system.json",
-  "download": "https://github.com/hoohls/clube-dos-taberneiros-foundry/archive/refs/heads/main.zip",
-  "bugs": "https://github.com/hoohls/clube-dos-taberneiros-foundry/issues",
-  "changelog": "https://github.com/hoohls/clube-dos-taberneiros-foundry/releases",
-  "license": "MIT",
-  "readme": "https://github.com/hoohls/clube-dos-taberneiros-foundry/blob/main/README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://raw.githubusercontent.com/hoohls/clube-dos-taberneiros-foundry/main/assets/icon.png"
-    }
-  ],
   "esmodules": [
     "module/clube-dos-taberneiros.mjs"
   ],
@@ -83,6 +70,19 @@
     "units": "m"
   },
   "primaryTokenAttribute": "pv",
-  "secondaryTokenAttribute": "pm"
+  "secondaryTokenAttribute": "pm",
+  "url": "https://github.com/hoohls/clube-dos-taberneiros-foundry",
+  "manifest": "https://raw.githubusercontent.com/hoohls/clube-dos-taberneiros-foundry/main/system.json",
+  "download": "https://github.com/hoohls/clube-dos-taberneiros-foundry/archive/refs/heads/main.zip",
+  "bugs": "https://github.com/hoohls/clube-dos-taberneiros-foundry/issues",
+  "changelog": "https://github.com/hoohls/clube-dos-taberneiros-foundry/releases",
+  "license": "MIT",
+  "readme": "https://github.com/hoohls/clube-dos-taberneiros-foundry/blob/main/README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/hoohls/clube-dos-taberneiros-foundry/main/assets/icon.png"
+    }
+  ]
 }
 
