@@ -6,7 +6,7 @@
 // Importar classes do sistema
 import { ClubeActor } from "./documents/actor.mjs";
 import { ClubeItem } from "./documents/item.mjs";
-import { ClubeActorSheet } from "./sheets/actor-sheet.mjs";
+import { TaberneiroPersonagemSheet } from "./sheets/actor-sheet.mjs";
 import { ClubeItemSheet } from "./sheets/item-sheet.mjs";
 
 /* -------------------------------------------- */
@@ -22,8 +22,8 @@ Hooks.once('init', async function() {
 
   // Registrar folhas de personagem
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("clube-dos-taberneiros", ClubeActorSheet, {
-    types: ["personagem", "npc", "criatura"],
+  Actors.registerSheet("clube-dos-taberneiros", TaberneiroPersonagemSheet, {
+    types: ["personagem"],
     makeDefault: true
   });
 
